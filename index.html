@@ -89,7 +89,7 @@
         let entrance_survey = document.getElementById('entranceSurvey');
         entrance_survey.setAttribute('href', site==='Bayfield' ? 'https://tinyurl.com/LHARBay' : site==='New Hamburg' ? 'https://tinyurl.com/LHARNewH' : '#')
 
-        let map = L.map('map').setView(site==='Bayfield' ? [43.564482, -81.700748] : [43.380092, -80.711263], 15)
+        let map = L.map('map').setView(site==='Bayfield' ? [43.564482, -81.700748] : [43.380092, -80.711263], 16)
 
         L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             crs: L.CRS.EPSG3857,
