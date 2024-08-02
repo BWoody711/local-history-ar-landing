@@ -87,7 +87,7 @@
         const site = urlParams.get('Site');
 
         let entrance_survey = document.getElementById('entranceSurvey');
-        entrance_survey.setAttribute('href', site==='Bayfield' ? 'https://tinyurl.com/LHARBay' : site==='New Hamburg' ? 'https://tinyurl.com/LHARNewH' : '#')
+        entrance_survey.setAttribute('href', site==='Bayfield' ? 'https://uwaterloo.ca1.qualtrics.com/jfe/form/SV_3jTDNWBCbqQcrn8?Site=Bayfield' : site==='New Hamburg' ? 'https://uwaterloo.ca1.qualtrics.com/jfe/form/SV_3jTDNWBCbqQcrn8?Site=New%20Hamburg' : '#')
 
         let map = L.map('map').setView(site==='Bayfield' ? [43.564482, -81.700748] : [43.380092, -80.711263], 16)
 
